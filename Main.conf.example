@@ -1,0 +1,17 @@
+[tasbot]
+serverport=8200
+serveraddr=springrts.com
+nick=WatchBot
+password=
+debug=1
+logfile=faqbot.log
+pidfile=faqbot.pid
+
+admins=_koshi_,BrainDamage
+plugins=watchbot,join_channels
+
+[join_channels]
+channels=sasi
+
+[watchbot]
+AMBot=$HOME/pids/ambot.pid
