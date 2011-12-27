@@ -1,0 +1,4 @@
+*.pyc
+Main.conf
+join_channels.py
+*~
